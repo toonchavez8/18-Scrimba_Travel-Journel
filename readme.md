@@ -44,7 +44,7 @@ Before you get started, make sure you have the following tools installed on your
 To get started, clone the repository and install the dependencies:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/travel-journal.git
+git clone [https://github.com/YOUR_USERNAME/travel-journal.git](https://github.com/toonchavez8/18-Scrimba_Travel-Journel.git)
 cd travel-journal
 npm install
 ```
