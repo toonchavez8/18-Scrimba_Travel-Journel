@@ -18,7 +18,7 @@ export default function Card(props) {
          
         </div>
             <Modal isOpen={modalIsOpen} onRequestClose={() => setModalIsOpen(false)} className="Card--Img-Modal">
-            <img src={props.card.imageUrl} alt={props.card.title} />
+            <img src={props.card.imageUrl} alt={props.card.title} className="Card--img" />
             </Modal>
         <div className="Card--content">
             <div className="Card--MetaDetails">

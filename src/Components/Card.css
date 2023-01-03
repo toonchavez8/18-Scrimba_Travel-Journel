@@ -113,19 +113,21 @@
 
 .Card--Img-Modal {
 	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-25%, -50%);
+	height: calc(100% - 2rem);
 	width: calc(100% - 2rem);
 	outline: none !important;
 	transition: all 0.3s ease-in-out;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
-.Card--Img-Modal > * {
+.Card--Img-Modal > .Card--img {
+	width: 75%;
 	border-radius: 0.75rem;
 	object-fit: cover;
 	caret-color: transparent;
-	max-height: 37.5rem;
+	max-height: 700px;
 }
 
 /* Media quiery for tablet */
