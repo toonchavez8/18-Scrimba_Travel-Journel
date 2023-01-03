@@ -1,7 +1,7 @@
 .Cards {
 	padding-top: 1.5rem;
 	display: flex;
-	height: calc(100% - 2rem);
+	height: 100%;
 	flex-direction: column;
 	overflow-y: auto;
 	padding-bottom: 4rem;
@@ -24,9 +24,25 @@
 	overflow: hidden;
 }
 
+.Card:hover .Card--img-container,
+.Card:hover .Card--title {
+	transform: scale(1.05);
+	color: rgb(245, 90, 90);
+}
+
+.Card--img-container:not(:hover) {
+	opacity: 75%;
+}
+
 .Card--img {
 	height: 100%;
 	object-fit: cover;
+	cursor: pointer;
+}
+
+.Card--img-container:hover .Card--img,
+.Card--img-container:hover {
+	transform: scale(1.05);
 }
 
 .Card--content {

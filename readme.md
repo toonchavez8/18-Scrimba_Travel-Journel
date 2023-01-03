@@ -2,6 +2,8 @@
 
 Welcome to the Travel Journal app! This app allows you to keep track of all your trips in one place. It was created using the Scrimba ["Learn React"](https://scrimba.com/learn/learnreact) course and built with the React JavaScript library.
 
+![scrimba Travel Journel Designfile ](./public/Scrimba-Traveljournal.png)
+
 ## Index
 
 - [Features](#features)
